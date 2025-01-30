@@ -27,7 +27,7 @@ def model_loading():
 
     global MODEL_, SCALER
 
-    df = pd.read_csv("/Users/pranavmody/Downloads/detailed_us_records_20k.csv")
+    df = pd.read_csv("C:/Personal Stuff/projects/Loan Approval System/detailed_us_records_20k.csv")
 
 
 
@@ -140,7 +140,7 @@ def assign_interest_rate(row):
 
 
 def my_dash():
-    df = pd.read_csv("/Users/pranavmody/Downloads/detailed_us_records_20k.csv")
+    df = pd.read_csv("C:/Personal Stuff/projects/Loan Approval System/detailed_us_records_20k.csv")
     df = df[df['Loan Status'] == 'Accepted']
     dict_ = user_input
     selected_columns = df[list(dict_.keys())]
