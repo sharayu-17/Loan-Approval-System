@@ -4,7 +4,7 @@
 In today's financial landscape, the loan application process remains daunting, opaque, and inaccessible for many. Applicants face numerous hurdles such as understanding eligibility criteria, navigating various loan types, and coping with the discouragement of loan rejections. This project aims to revolutionize the loan approval process by utilizing AI-driven insights to make financial support more accessible, personalized, and efficient.
 
 ### Solution
-Our solution leverages cutting-edge machine learning algorithms and dynamic decision engines to analyze financial data and credit history in real-time, predicting loan eligibility with a high degree of accuracy. Key features include:
+Our solution leverages cutting-edge machine learning algorithms and dynamic decision engines to analyze financial data and credit history in real-time, predicting loan eligibility with high degree of accuracy. Key features include:
 
 - **Machine Learning Algorithms**: Sophisticated models to predict loan eligibility based on financial data.
 - **Dynamic Decision Engines**: Continuously improving accuracy by learning from each application.
@@ -39,10 +39,6 @@ Our solution leverages cutting-edge machine learning algorithms and dynamic deci
 - Detailed U.S. financial records from the following source:
   [Detailed US Records 20k CSV](https://loandata2020.s3.us-west-1.amazonaws.com/detailed_us_records_20k.csv)
 
-### Model and Analysis
-- Model training and analysis performed in Google Colab.
-  [Colab Notebook Link](https://colab.research.google.com/drive/1hXuwo0EWpaVovC4ikXQNpxGt6u2uJh0I?usp=sharing)
-
 ### Project Structure
 
 ```plaintext
@@ -51,7 +47,6 @@ Our solution leverages cutting-edge machine learning algorithms and dynamic deci
 ├── templates/
 │   └── [HTML Templates]
 ├── .DS_Store
-├── Group10_Presentation.pptx
 ├── README.md
 ├── app.py
 └── detailed_us_records_20k.csv
